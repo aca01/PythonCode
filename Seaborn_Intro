@@ -1,3 +1,16 @@
 '''For more about Seaborn
 Go to: https://seaborn.pydata.org or https://seaborn.pydata.org/tutorial.html '''
 
+#Pandas dataframe
+df = pd.Dataframe({
+    'Gender': ['Male', 'Female', 'Non-binary'],
+    'Mean Satisfaction': [7.2, 8.1, 6.8]
+    })
+
+#bar plot using seaborn is preferable to creating bar plot via matplotlib
+sns.barplot(
+	data= df,
+	x= 'Gender',
+	y= 'Mean Satisfaction'
+)
+plt.show()

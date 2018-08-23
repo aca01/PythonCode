@@ -77,3 +77,7 @@ sns.set_palette("pastel")
 # Add your code below:
 sns.violinplot(data=df, x='label', y='value')
 plt.show()
+
+
+
+#for more on Seaborn: https://seaborn.pydata.org  or  https://seaborn.pydata.org/tutorial.html
